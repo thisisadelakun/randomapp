@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 80vh;
+   
+}
+#number{
+    font-size: 40px;
+}
+#generate-btn{
+    background-color: black;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
